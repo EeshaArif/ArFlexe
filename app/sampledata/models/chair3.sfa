@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/chair3.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_30',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '3',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/chair3.fbx',
+    name: 'chair3',
+    recenter: 'root',
+    scale: 6.7656240000000007,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\chair3.fbm\\3.png',
+      name: '3',
+      pipeline_name: 'chair3.fbm\\3.png',
+    },
+    {
+      file: 'sampledata/models\\chair3.fbm\\4.png',
+      name: '4',
+      pipeline_name: 'chair3.fbm\\4.png',
+    },
+  ],
+  version: '0.54:2',
+}

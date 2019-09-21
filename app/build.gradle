@@ -1,0 +1,184 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        applicationId "com.example.androidsceneform"
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.7.0'
+    implementation 'com.google.ar:core:1.7.0'
+    implementation 'com.google.ar.sceneform:core:1.7.0'
+    implementation 'com.android.support:design:28.0.0'
+}
+
+
+sceneform.asset('sampledata/models/bear.fbx',
+        'default',
+        'sampledata/models/bear.sfa',
+        'src/main/res/raw/bear')
+
+sceneform.asset('sampledata/models/cat.fbx',
+        'default',
+        'sampledata/models/cat.sfa',
+        'src/main/res/raw/cat')
+
+sceneform.asset('sampledata/models/dog.fbx',
+        'default',
+        'sampledata/models/dog.sfa',
+        'src/main/res/raw/dog')
+
+sceneform.asset('sampledata/models/horse.fbx',
+        'default',
+        'sampledata/models/horse.sfa',
+        'src/main/res/raw/horse')
+
+sceneform.asset('sampledata/models/reindeer.fbx',
+        'default',
+        'sampledata/models/reindeer.sfa',
+        'src/main/res/raw/reindeer')
+
+
+sceneform.asset('sampledata/models/chair1.FBX',
+        'default',
+        'sampledata/models/chair1.sfa',
+        'src/main/res/raw/chair1')
+
+sceneform.asset('sampledata/models/chair2.fbx',
+        'default',
+        'sampledata/models/chair2.sfa',
+        'src/main/res/raw/chair2')
+
+sceneform.asset('sampledata/models/chair3.fbx',
+        'default',
+        'sampledata/models/chair3.sfa',
+        'src/main/res/raw/chair3')
+
+sceneform.asset('sampledata/models/chair4.fbx',
+        'default',
+        'sampledata/models/chair4.sfa',
+        'src/main/res/raw/chair4')
+
+sceneform.asset('sampledata/models/chair5.fbx',
+        'default',
+        'sampledata/models/chair5.sfa',
+        'src/main/res/raw/chair5')
+
+sceneform.asset('sampledata/models/crystal.fbx',
+        'default',
+        'sampledata/models/crystal.sfa',
+        'src/main/res/raw/crystal')
+
+
+sceneform.asset('sampledata/hheart.fbx',
+        'default',
+        'sampledata/hheart.sfa',
+        'src/main/assets/hheart')
+
+
+sceneform.asset('sampledata/heart.fbx',
+        'default',
+        'sampledata/heart.sfa',
+        'src/main/assets/heart')
+
+sceneform.asset('sampledata/skeleton.fbx',
+        'default',
+        'sampledata/skeleton.sfa',
+        'src/main/assets/skeleton')
+
+
+sceneform.asset('sampledata/models/lamp1.fbx',
+        'default',
+        'sampledata/models/lamp1.sfa',
+        'src/main/res/raw/lamp1')
+
+sceneform.asset('sampledata/models/lamp2.fbx',
+        'default',
+        'sampledata/models/lamp2.sfa',
+        'src/main/res/raw/lamp2')
+
+sceneform.asset('sampledata/models/lamp3.fbx',
+        'default',
+        'sampledata/models/lamp3.sfa',
+        'src/main/res/raw/lamp3')
+
+sceneform.asset('sampledata/models/lamp4.fbx',
+        'default',
+        'sampledata/models/lamp4.sfa',
+        'src/main/res/raw/lamp4')
+
+sceneform.asset('sampledata/models/lamp5.fbx',
+        'default',
+        'sampledata/models/lamp5.sfa',
+        'src/main/res/raw/lamp5')
+
+sceneform.asset('sampledata/models/table1.fbx',
+        'default',
+        'sampledata/models/table1.sfa',
+        'src/main/res/raw/table1')
+
+sceneform.asset('sampledata/models/table2.fbx',
+        'default',
+        'sampledata/models/table2.sfa',
+        'src/main/res/raw/table2')
+
+sceneform.asset('sampledata/models/desk1.fbx',
+        'default',
+        'sampledata/models/desk1.sfa',
+        'src/main/res/raw/desk1')
+
+sceneform.asset('sampledata/models/desk2.fbx',
+        'default',
+        'sampledata/models/desk2.sfa',
+        'src/main/res/raw/desk2')
+
+sceneform.asset('sampledata/models/desk3.fbx',
+        'default',
+        'sampledata/models/desk3.sfa',
+        'src/main/res/raw/desk3')
+
+
+sceneform.asset('sampledata/bluemodel.fbx',
+        'default',
+        'sampledata/bluemodel.sfa',
+        'src/main/assets/bluemodel')
+
+
+sceneform.asset('sampledata/brownmodel.fbx',
+        'default',
+        'sampledata/brownmodel.sfa',
+        'src/main/assets/brownmodel')
+
+sceneform.asset('sampledata/yellowmodel1.fbx',
+        'default',
+        'sampledata/yellowmodel1.sfa',
+        'src/main/assets/yellowmodel1')

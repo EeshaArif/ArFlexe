@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      path: 'sampledata/hheart.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_235',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '73',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/hheart.fbx',
+    name: 'hheart',
+    recenter: 'root',
+    scale: 25.7656240000000007,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\hheart.fbm\\73.png',
+      name: '73',
+      pipeline_name: 'hheart.fbm\\73.png',
+    },
+    {
+      file: 'sampledata\\hheart.fbm\\75.png',
+      name: '75',
+      pipeline_name: 'hheart.fbm\\75.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Desks">
+
+    <fragment
+        android:id="@+id/sceneform_ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/back"
+                android:src="@drawable/back"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/desk1"
+                android:layout_width="110dp"
+                android:layout_height="300dp"
+                android:src="@drawable/desk1_img" />
+
+            <ImageView
+                android:id="@+id/desk2"
+                android:src="@drawable/desk2_img"
+                android:layout_width="110dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/desk3"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/desk3_img" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/bear.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_44',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '5',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/bear.fbx',
+    name: 'bear',
+    recenter: 'root',
+    scale: 6.4932540000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\bear.fbm\\5.png',
+      name: '5',
+      pipeline_name: 'bear.fbm\\5.png',
+    },
+    {
+      file: 'sampledata/models\\bear.fbm\\7.png',
+      name: '7',
+      pipeline_name: 'bear.fbm\\7.png',
+    },
+  ],
+  version: '0.54:2',
+}

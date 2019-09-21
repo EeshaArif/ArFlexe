@@ -1,0 +1,267 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/desk2.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_60',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '137',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_62',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '148',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_64',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '159',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_66',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '170',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_68',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '181',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/desk2.fbx',
+    name: 'desk2',
+    recenter: 'root',
+    scale: 8.8469040000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\desk2.fbm\\159.png',
+      name: '159',
+      pipeline_name: 'desk2.fbm\\159.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\137.png',
+      name: '137',
+      pipeline_name: 'desk2.fbm\\137.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\170.png',
+      name: '170',
+      pipeline_name: 'desk2.fbm\\170.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\152.png',
+      name: '152',
+      pipeline_name: 'desk2.fbm\\152.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\141.png',
+      name: '141',
+      pipeline_name: 'desk2.fbm\\141.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\148.png',
+      name: '148',
+      pipeline_name: 'desk2.fbm\\148.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\181.png',
+      name: '181',
+      pipeline_name: 'desk2.fbm\\181.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\174.png',
+      name: '174',
+      pipeline_name: 'desk2.fbm\\174.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\163.png',
+      name: '163',
+      pipeline_name: 'desk2.fbm\\163.png',
+    },
+    {
+      file: 'sampledata/models\\desk2.fbm\\185.png',
+      name: '185',
+      pipeline_name: 'desk2.fbm\\185.png',
+    },
+  ],
+  version: '0.54:2',
+}

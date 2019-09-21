@@ -1,0 +1,118 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/lamp2.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_51',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '131',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_53',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/lamp2.fbx',
+    name: 'lamp2',
+    recenter: 'root',
+    scale: 3.765625,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\lamp2.fbm\\131.png',
+      name: '131',
+      pipeline_name: 'lamp2.fbm\\131.png',
+    },
+    {
+      file: 'sampledata/models\\lamp2.fbm\\135.png',
+      name: '135',
+      pipeline_name: 'lamp2.fbm\\135.png',
+    },
+    {
+      file: 'sampledata/models\\lamp2.fbm\\142.png',
+      name: '142',
+      pipeline_name: 'lamp2.fbm\\142.png',
+    },
+  ],
+  version: '0.54:2',
+}

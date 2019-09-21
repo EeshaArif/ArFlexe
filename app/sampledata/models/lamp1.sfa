@@ -1,0 +1,171 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/lamp1.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_54',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '155',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_56',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '166',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_58',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '177',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/lamp1.fbx',
+    name: 'lamp1',
+    recenter: 'root',
+    scale: 2.7529620000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\lamp1.fbm\\177.png',
+      name: '177',
+      pipeline_name: 'lamp1.fbm\\177.png',
+    },
+    {
+      file: 'sampledata/models\\lamp1.fbm\\155.png',
+      name: '155',
+      pipeline_name: 'lamp1.fbm\\155.png',
+    },
+    {
+      file: 'sampledata/models\\lamp1.fbm\\159.png',
+      name: '159',
+      pipeline_name: 'lamp1.fbm\\159.png',
+    },
+    {
+      file: 'sampledata/models\\lamp1.fbm\\166.png',
+      name: '166',
+      pipeline_name: 'lamp1.fbm\\166.png',
+    },
+    {
+      file: 'sampledata/models\\lamp1.fbm\\170.png',
+      name: '170',
+      pipeline_name: 'lamp1.fbm\\170.png',
+    },
+    {
+      file: 'sampledata/models\\lamp1.fbm\\181.png',
+      name: '181',
+      pipeline_name: 'lamp1.fbm\\181.png',
+    },
+  ],
+  version: '0.54:2',
+}

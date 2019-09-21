@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chairs">
+
+    <fragment
+        android:id="@+id/sceneform_ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/back"
+                android:src="@drawable/back"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/chair1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chair1" />
+
+            <ImageView
+                android:id="@+id/chair2"
+                android:src="@drawable/chair2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/chair4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chair4" />
+
+            <ImageView
+                android:id="@+id/chair3"
+                android:src="@drawable/chair3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/chair5"
+                android:src="@drawable/chair5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+</ScrollView>
+
+</FrameLayout>
