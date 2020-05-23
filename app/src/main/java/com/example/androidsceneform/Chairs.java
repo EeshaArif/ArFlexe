@@ -87,7 +87,7 @@ public class  Chairs extends AppCompatActivity implements View.OnClickListener {
                 .build().thenAccept(renderable -> chair1Renderable=renderable)
                 .exceptionally(
                         throwable -> {
-                            Toast.makeText(this,"unable to load lamp1 model",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this,"unable to load chair1 model",Toast.LENGTH_SHORT).show();
 
                             return null;});
 
@@ -105,7 +105,7 @@ public class  Chairs extends AppCompatActivity implements View.OnClickListener {
                 .build().thenAccept(renderable -> chair3Renderable=renderable)
                 .exceptionally(
                         throwable -> {
-                            Toast.makeText(this,"unable to load lamp3 model",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this,"unable to load chair3 model",Toast.LENGTH_SHORT).show();
 
                             return null;});
 
@@ -114,7 +114,7 @@ public class  Chairs extends AppCompatActivity implements View.OnClickListener {
                 .build().thenAccept(renderable -> chair4Renderable=renderable)
                 .exceptionally(
                         throwable -> {
-                            Toast.makeText(this,"unable to load lamp4 model",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this,"unable to load chair4 model",Toast.LENGTH_SHORT).show();
 
                             return null;});
 
@@ -123,7 +123,7 @@ public class  Chairs extends AppCompatActivity implements View.OnClickListener {
                 .build().thenAccept(renderable -> chair5Renderable=renderable)
                 .exceptionally(
                         throwable -> {
-                            Toast.makeText(this,"unable to load lamp5 model",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this,"unable to load chair5 model",Toast.LENGTH_SHORT).show();
 
                             return null;});
 
@@ -206,13 +206,6 @@ public class  Chairs extends AppCompatActivity implements View.OnClickListener {
             addName(anchornode,chair5,"Wooden Indoor Chair\n" +
                     "Rs 3,000/Piece\n" +
                     "Famous Furniture & Interior Contractor");
-          /*  lamp5.setOnTapListener(new Node.OnTapListener() {
-                @Override
-                public void onTap(HitTestResult hitTestResult, MotionEvent motionEvent) {
-                    getNameView().setEnabled(false);
-                }
-            });
-*/
 
 
         }
@@ -221,9 +214,7 @@ public class  Chairs extends AppCompatActivity implements View.OnClickListener {
     private void setNameView(TransformableNode nameView){
         this.nameView=nameView;
     }
-    private TransformableNode getNameView(){
-        return nameView;
-    }
+ 
 
     //this method is being used inside createModel() to add a specific name to each model
     private void addName(AnchorNode anchornode, TransformableNode model, String name) {
@@ -250,7 +241,7 @@ public class  Chairs extends AppCompatActivity implements View.OnClickListener {
                     anchornode.setParent(null);
 
 
-                    //Log.d(TAG,anchornode.toString());
+                 
                 }
 
 
